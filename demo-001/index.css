@@ -1,0 +1,118 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* basic setting */
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  color: #333333;
+  padding: 20px;
+}
+
+h1::before {
+  content: "# ";
+}
+
+p {
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.card-container {
+  max-width: 860px;
+  margin: auto;
+}
+
+.card-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.card {
+  margin: 5px;
+  width: 200px;
+  height: 136px;
+  border: 2px solid LightGrey;
+  border-radius: 5px;
+  float: left;
+}
+
+.card:hover {
+  box-shadow: 1px 5px 7px 1px rgba(12, 12, 12, 0.6);
+}
+
+.card-color-box {
+  width: 200px;
+  height: 90px;
+}
+
+/* color setting */
+.box-color-tomato {
+  background-color: Tomato;
+}
+.text-color-tomato {
+  color: Tomato;
+}
+
+.box-color-orange {
+  background-color: Orange;
+}
+.text-color-orange {
+  color: Orange;
+}
+
+.box-color-dodgerblue {
+  background-color: DodgerBlue;
+}
+.text-color-dodgerblue {
+  color: DodgerBlue;
+}
+
+.box-color-mediumseagreen {
+  background-color: MediumSeaGreen;
+}
+.text-color-mediumseagreen {
+  color: MediumSeaGreen;
+}
+
+.box-color-gray {
+  background-color: Gray;
+}
+.text-color-gray {
+  color: Gray;
+}
+
+.box-color-slateblue {
+  background-color: SlateBlue;
+}
+.text-color-slateblue {
+  color: SlateBlue;
+}
+
+.box-color-violet {
+  background-color: Violet;
+}
+.text-color-violet {
+  color: Violet;
+}
+
+.box-color-lightgrey {
+  background-color: LightGrey;
+}
+.text-color-lightgrey {
+  color: LightGrey;
+}
