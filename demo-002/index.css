@@ -51,6 +51,7 @@ code {
   width: 800px;
   height: 30px;
   line-height: 30px;
+  overflow-x: auto;
   margin: 10px auto;
   background-color: #333333;
 }
@@ -66,4 +67,8 @@ code {
 
 .ex3 {
   background-image: linear-gradient(to bottom right, Black, White);
+}
+
+.ex4 {
+  background-image: linear-gradient(to right, Red, Orange, Yellow, Green, Blue, Indigo, Violet);
 }
