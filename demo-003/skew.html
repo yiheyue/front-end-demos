@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>skew()</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      padding: 30px;
+    }
+    h2 {
+      padding: 30px;
+    }
+    .box {
+      width: 200px;
+      height: 200px;
+      font-size: 22px;
+      color: White;
+      text-transform: capitalize;
+      text-align: center;
+      line-height: 200px;
+      margin: 100px;
+    }
+    .default {
+      background-color: DodgerBlue;
+    }
+    .transformed-ex1 {
+      background-color: Violet;
+      transform: skewX(30deg);
+    }
+    .transformed-ex2 {
+      background-color: MediumSeaGreen;
+      transform: skewY(30deg);
+    }
+  </style>
+</head>
+<body>
+  <h1># skew()</h1>
+  <hr>
+  <h2>## default</h2>
+  <div class="box default">default</div>
+  <hr>
+  <h2>## skewX(30deg)</h2>
+  <div class="box transformed-ex1">transformed</div>
+  <hr>
+  <h2>## skewY(30deg)</h2>
+  <div class="box transformed-ex2">transformed</div>
+</body>
+</html>

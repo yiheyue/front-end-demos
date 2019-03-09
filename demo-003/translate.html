@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>translate()</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    h1 {
+      padding: 30px;
+    }
+    h2 {
+      padding: 30px;
+    }
+    .box {
+      width: 200px;
+      height: 200px;
+      font-size: 22px;
+      color: White;
+      text-transform: capitalize;
+      text-align: center;
+      line-height: 200px;
+      margin: 100px;
+    }
+    .default {
+      background-color: DodgerBlue;
+    }
+    .transformed {
+      background-color: Violet;
+      transform: translate(120px, -60px);
+    }
+  </style>
+</head>
+<body>
+  <h1># translate()</h1>
+  <hr>
+  <h2>## default</h2>
+  <div class="box default">default</div>
+  <hr>
+  <h2>## translate(120px, -60px)</h2>
+  <div class="box transformed">transformed</div>
+</body>
+</html>
