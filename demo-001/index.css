@@ -116,3 +116,31 @@ p {
 .text-color-lightgrey {
   color: LightGrey;
 }
+
+.box-color-000000 {
+  background-color: #000000;
+}
+.text-color-000000 {
+  color: #000000;
+}
+
+.box-color-111111 {
+  background-color: #111111;
+}
+.text-color-111111 {
+  color: #111111;
+}
+
+.box-color-222222 {
+  background-color: #222222;
+}
+.text-color-222222 {
+  color: #222222;
+}
+
+.box-color-333333 {
+  background-color: #333333;
+}
+.text-color-333333 {
+  color: #333333;
+}
