@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS 绘制图形</title>
+  <style>
+    .example-box {
+      width: 200px;
+      height: 200px;
+      background-color: LightGrey;
+    }
+
+    .triangle {
+      width: 0;
+      height: 0;
+      border: 50px solid Tomato;
+      border-color: Tomato transparent transparent transparent;
+    }
+
+    .trapzoid {
+      width: 40px;
+      height: 100px;
+      border: 50px solid DodgerBlue;
+      border-color: transparent transparent DodgerBlue transparent;
+    }
+
+    .circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: MediumSeaGreen;
+    }
+
+    .ellipse {
+      width: 200px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: Wheat;
+    }
+
+    .semi-circle {
+      width: 50px;
+      height: 100px;
+      border-radius: 50px 0 0 50px;
+      background-color: Violet;
+    }
+  </style>
+</head>
+<body>
+  <h3>Triangle</h3>
+  <div class="example-box triangle"></div>
+
+  <hr>
+
+  <h3>Trapzoid</h3>
+  <div class="example-box trapzoid"></div>
+
+  <hr>
+
+  <h3>Circle</h3>
+  <div class="example-box circle"></div>
+
+  <hr>
+
+  <h3>Ellipse</h3>
+  <div class="example-box ellipse"></div>
+
+  <hr>
+
+  <h3>Semi-circle</h3>
+  <div class="example-box semi-circle"></div>
+</body>
+</html>
